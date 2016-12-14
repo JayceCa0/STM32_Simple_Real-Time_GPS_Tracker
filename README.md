@@ -14,7 +14,7 @@
 4. Power on tracker, wait while it connects, visit yout URL address from browser, appears marker on Google maps with real-time tracking
 
 - You can also use optional USB->UART adapter to see entire GSM command log if something goes wrong.
-- All modules available on plenty of online stores worldwide, for very cheap prices
+- All modules available on plenty of online stores worldwide, for very low prices
 
 ###Demo Video/Photo
 - YouTube demo video URL: https://www.youtube.com/watch?v=64JG3vHRAnY
