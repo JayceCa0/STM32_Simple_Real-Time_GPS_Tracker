@@ -1,0 +1,39 @@
+<html>
+	<head>
+		<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+		<style type="text/css">
+			html {height: 100%}
+			body {height: 100%; margin: 0; padding: 0}
+			#map-canvas {height: 100%}
+		</style>
+			<script src="components/jquery-2.1.1.min.js"></script>
+			<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLEAPI_KEY_HERE"></script>
+			<script type="text/javascript">
+			var x = 0;
+			var y = 0;
+			function get_posotion(){
+				$.get("get_location.php?newxsrequest=true&latest_value=x",function(data){
+					x = data;
+				});
+				$.get("get_location.php?newxsrequest=false&latest_value=y",function(data){
+					y = data;
+				});
+			}
+			function initialize(){
+				get_posotion();
+				var map = new google.maps.Map(document.getElementById('map-canvas'), {zoom: 40, mapTypeId: google.maps.MapTypeId.HYBRID, center: new google.maps.LatLng(x,y), disableDefaultUI: true});
+				var marker = new google.maps.Marker({position: new google.maps.LatLng(x,y),map: map,title: 'Current Location!'});
+				setInterval(function (){
+					get_posotion();
+					marker.setPosition(new google.maps.LatLng(x,y));
+					map.panTo(new google.maps.LatLng(x,y));
+					map.setZoom(40);
+				}, 1000);
+			}
+			google.maps.event.addDomListener(window, 'load', initialize);
+		</script>
+	</head>
+	<body>
+		<div id="map-canvas"/></div>
+	</body>
+</html>
