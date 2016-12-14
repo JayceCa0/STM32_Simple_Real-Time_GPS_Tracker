@@ -1,7 +1,7 @@
 # STM32 Simple Real-Time DIY GPS Tracker
 
 ###How to...
-1. Connect modules as show on "Connection.png"
+1. Connect modules as shown on "Connection.png"
 2. MCU side:
   * Replace "YOUR_DOMAIN_HERE" with your domain name in "main.c"
   * Replace "YOUR_APN_HERE" with Access Point Name of your GSM provider
