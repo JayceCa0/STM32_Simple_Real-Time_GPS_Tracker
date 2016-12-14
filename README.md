@@ -18,4 +18,4 @@
 
 ###Demo Video/Photo
 - YouTube demo video URL: https://www.youtube.com/watch?v=64JG3vHRAnY
-- Google Drive folder URL: https://drive.google.com/drive/folders/0B-L-95hnJIZoS0tIU2dPN2xqdHc
+- Yandex Disk folder URL: https://yadi.sk/d/5PK87rGz33XpUh
