@@ -11,7 +11,7 @@
   * Upload all files from "Server Side/source" folder onto server
   * Create database named "trackingbase" with user named "user" and password "uarfqnfdavcq1" (note: You can change these values in "get_location.php" anytime)
   * Upload and replace tables from "tables.sql" file in created database, using PHPMyAdmin for example
-4. Power on tracker, wait while it connects, visit yout URL address from browser, appears marker on Google maps with real-time tracking
+4. Power on tracker, wait while it connects, visit your URL from browser, appears marker on Google maps with real-time tracking
 
 - You can also use optional USB->UART adapter to see entire GSM command log if something goes wrong.
 - All modules available on plenty of online stores worldwide, for very low prices
