@@ -16,5 +16,6 @@
 - You can also use optional USB->UART adapter to see entire GSM command log if something goes wrong.
 - All modules available on plenty of online stores worldwide, for very cheap prices
 
-###YouTube Demo Video
+###Demo Video/Photo
 - YouTube Video URL: https://www.youtube.com/watch?v=64JG3vHRAnY
+- Google Drive folder URL: https://drive.google.com/drive/folders/0B-L-95hnJIZoS0tIU2dPN2xqdHc
