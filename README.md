@@ -1,5 +1,11 @@
 # STM32 Simple Real-Time DIY GPS Tracker
 
+###Project demo Video/Photo
+- YouTube demo video URL: https://www.youtube.com/watch?v=64JG3vHRAnY
+- Yandex Disk folder URL: https://yadi.sk/d/5PK87rGz33XpUh
+
+[![Simple realtime DIY GPS/GLONASS Tracker - Youtube](./cover.jpg)](https://www.youtube.com/watch?v=64JG3vHRAnY)
+
 ###How to...
 1. Connect modules as shown on "Connection.png"
 2. MCU side:
@@ -15,7 +21,3 @@
 
 - You can also use optional USB->UART adapter to see entire GSM command log if something goes wrong.
 - All modules available on plenty of online stores worldwide, for very low prices
-
-###Demo Video/Photo
-- YouTube demo video URL: https://www.youtube.com/watch?v=64JG3vHRAnY
-- Yandex Disk folder URL: https://yadi.sk/d/5PK87rGz33XpUh
