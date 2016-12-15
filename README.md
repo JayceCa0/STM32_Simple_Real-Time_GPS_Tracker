@@ -1,10 +1,10 @@
+[![Simple realtime DIY GPS/GLONASS Tracker - Youtube](./cover.jpg)](https://www.youtube.com/watch?v=64JG3vHRAnY)
+
 # STM32 Simple Real-Time DIY GPS Tracker
 
 ###Project demo Video/Photo
 - YouTube demo video URL: https://www.youtube.com/watch?v=64JG3vHRAnY
 - Yandex Disk folder URL: https://yadi.sk/d/5PK87rGz33XpUh
-
-[![Simple realtime DIY GPS/GLONASS Tracker - Youtube](./cover.jpg)](https://www.youtube.com/watch?v=64JG3vHRAnY)
 
 ###How to...
 1. Connect modules as shown on "Connection.png"
