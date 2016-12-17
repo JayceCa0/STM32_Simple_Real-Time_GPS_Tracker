@@ -15,8 +15,9 @@
   * Upload and replace tables from "tables.sql" file in created database, using PHPMyAdmin for example
 4. Power on tracker, wait while it connects, visit your URL from browser, appears marker on Google maps with real-time tracking
 
-- You can also use optional USB->UART adapter to see entire GSM command log if something goes wrong.
-- All modules available on plenty of online stores worldwide, for very low prices
+:grey_exclamation:You can also use optional USB->UART adapter to see entire GSM command log if something goes wrong
+
+:grey_exclamation:All modules available on plenty of online stores worldwide, for very low prices
 
 ###Project demo Video/Photo
 - YouTube demo video URL: https://www.youtube.com/watch?v=64JG3vHRAnY
